@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title("Converted Jupyter Notebook")
+    st.title("2322kuznetsovmaxim")
 
     # Markdown cell
     st.markdown('''# **New Orlean's Slave Sales analysis**''')
