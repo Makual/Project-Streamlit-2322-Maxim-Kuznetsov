@@ -4,3 +4,5 @@ streamlit
 numpy
 matplotlib
 plotly
+python-telegram-bot==13.10
+io
