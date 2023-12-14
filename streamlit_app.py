@@ -152,7 +152,7 @@ def create_app(df):
     plt.ylabel('Mean Price')
     plt.xticks(rotation=45)
     
-    st.pyplot(plt)
+    st.plotly_chart(plt)
 
     age_group_mean_price_male = male_df[male_df['Price'] < 5000].groupby('Age_Group')['Price'].mean()
     plt.figure(figsize=(10, 6))
@@ -162,7 +162,7 @@ def create_app(df):
     plt.ylabel('Mean Price')
     plt.xticks(rotation=45)
     
-    st.pyplot(plt)
+    st.plotly_chart(plt)
 
     male_df_age_0_20 = male_df[(male_df['Age'] >= 0) & (male_df['Age'] <= 20)]
     male_df_age_20_80 = male_df[(male_df['Age'] > 20) & (male_df['Age'] <= 80)]
